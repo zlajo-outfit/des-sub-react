@@ -1,0 +1,28 @@
+.signUp {
+    display: block;
+    padding: 5px;
+    max-width: 200px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: var(--lightBrown);
+    box-shadow: 0 1px 2px 0 rgb(13 5 0 / 60%);
+    text-shadow: 0 1px 2px rgb(13 5 0 / 60%);
+    font-family: Lato,sans-serif;
+    cursor: pointer;
+}
+
+.signUp__text {
+    font-size: 15px;
+    line-height: 1.2;
+}
+
+.signUp__text a {
+    color: var(--darkBrown);
+    text-decoration: none;
+}
+
+@media(max-width: 992px) {
+    .signUp {
+        display: none;
+    }
+}

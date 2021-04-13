@@ -1,0 +1,18 @@
+.cardContent__heading {
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 700;
+    color: var(--brown);
+}
+
+@media(max-width: 768px) {
+    .cardContent__heading {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .cardContent__heading {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,17 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --lightBrown: #b39386;
+    --darkBrown: #451602;
+    --headingColor: #7a645c;
+    --brown: #a9715a;
+    --footerBackground: #1a1613;
+    --fontPrimary: 'Raleway';
+}
+
+html {
+    font-family: var(--fontPrimary);
+    word-break: break-word !important;
+}
+
+

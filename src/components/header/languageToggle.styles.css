@@ -1,0 +1,13 @@
+.languageToggle {
+    display: block;
+    margin-left: 15px;
+    font-size: 13px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--darkBrown);
+}
+
+.languageToggle:hover {
+    color: var(--white);
+}

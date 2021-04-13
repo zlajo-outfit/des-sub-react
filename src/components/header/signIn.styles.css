@@ -1,0 +1,28 @@
+.signIn {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.signIn svg {
+    width: 20px;
+    height: 20px;
+    color: var(--darkBrown);
+    cursor: pointer;
+}
+
+.signIn svg:hover {
+    color: var(--white);
+}
+
+.signIn__text {
+    margin-left: 6px;
+    font-size: 13px;
+    line-height: 1.2;
+    color: var(--darkBrown);
+    cursor: pointer;
+}
+
+.signIn__text:hover {
+    color: var(--white);
+}

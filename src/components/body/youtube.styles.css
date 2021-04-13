@@ -1,0 +1,19 @@
+.youtube {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background: var(--white);
+}
+
+.iframe {
+    width: 110px;
+    height: 110px;
+    max-width: unset !important;
+    flex-shrink: none;
+}
+
+.youtube__text {
+    margin-left: 20px;
+    font-size: 15px;
+    line-height: 1.2;
+}

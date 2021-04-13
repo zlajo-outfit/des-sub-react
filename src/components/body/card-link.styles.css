@@ -1,0 +1,24 @@
+.cardContent__link {
+    margin-top: 19px;
+    text-align: right;
+    font-size: 16px;
+    line-height: 1.45;
+    font-weight: 700;
+}
+
+.cardContent__link a {
+    color: var(--brown);
+    text-decoration: none;
+}
+
+@media(max-width: 768px) {
+    .cardContent__link  {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .cardContent__link  {
+        margin-top: 10px;
+    }
+}

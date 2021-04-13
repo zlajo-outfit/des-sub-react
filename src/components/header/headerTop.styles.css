@@ -1,0 +1,7 @@
+.header__top {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: var(--lightBrown);
+}

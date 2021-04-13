@@ -1,0 +1,12 @@
+.brandDescription__heading {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #e0c5aa;
+}
+
+@media(max-width:768px) {
+    .brandDescription__heading {
+        font-size: 14px;
+    }
+}

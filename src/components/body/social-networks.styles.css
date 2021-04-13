@@ -1,0 +1,39 @@
+.socialNetworks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.youTubeContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+}
+
+.facebookContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media(max-width: 992px) {
+    .socialNetworks {
+        grid-template-columns: 1fr;
+        max-width: 550px;
+        justify-items: center;
+        margin: 0 auto;
+    }
+
+    .youTubeContainer {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 576px) {
+    .youTubeContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .socialNetworks {
+        max-width: 300px;
+    }
+}

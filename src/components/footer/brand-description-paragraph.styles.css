@@ -1,0 +1,16 @@
+.brandDescription__paragraph {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #b59271;
+}
+
+.brandDescription__paragraph:last-child {
+    margin-bottom: 0;
+}
+
+@media(max-width:768px) {
+    .brandDescription__paragraph {
+        font-size: 12px;
+    }
+}

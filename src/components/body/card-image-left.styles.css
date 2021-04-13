@@ -1,0 +1,37 @@
+.card__content--imageLeft {
+    margin-left: 46px;
+}
+
+.card__imageContainer {
+    flex: 1;
+    max-width: 570px;
+}
+
+.card {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+@media(max-width: 992px) {
+    .card {
+        margin-bottom: 40px;
+    }
+}
+
+@media(max-width: 768px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card__imageContainer {
+        margin-bottom: 20px;
+    }
+}

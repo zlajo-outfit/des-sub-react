@@ -1,0 +1,13 @@
+.card__content--imageRight {
+    margin-right: 46px;
+}
+
+@media(max-width: 768px) {
+    .card.card--imageRight {
+        flex-direction: column-reverse;
+    }
+
+    .card__content--imageRight {
+        margin-right: 0;
+    }
+}

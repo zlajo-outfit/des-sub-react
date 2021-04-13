@@ -1,0 +1,7 @@
+.header__bottom {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: var(--darkBrown);
+}

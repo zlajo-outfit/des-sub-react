@@ -1,0 +1,8 @@
+.sidebar__item--lightBrown {
+    color: #451602;
+    background-color: #e3ab90;
+}
+
+.sidebar__item--lightBrown:hover {
+    color: var(--white);
+}

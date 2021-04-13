@@ -1,0 +1,14 @@
+.brandDescription {
+    margin-bottom: 20px;
+    padding: 80px;
+    text-align: center;
+    background-image: url(../../assets/brandDesc__background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@media(max-width:768px) {
+    .brandDescription {
+        padding: 40px;
+    }
+}

@@ -1,0 +1,12 @@
+.sidebar {
+    display: block;
+    position: fixed;
+    top: 50%;
+    right: 0;
+}
+
+@media(max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

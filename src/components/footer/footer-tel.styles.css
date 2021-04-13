@@ -1,0 +1,13 @@
+.footerTel {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #cfae8f;
+}
+
+@media(max-width:768px) {
+    .footerTel {
+        font-size: 13px;
+    }
+}
